@@ -1,0 +1,1258 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    background-image: url('img/pexels-chan-walrus-958546.jpg');
+    background-size: cover;
+    background-position: center;
+    height:42rem;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+ul{
+    display:grid;
+    grid-gap:5px;
+    list-style: none;
+    grid-template-columns: repeat(7,1fr);
+    margin-top: 3rem;
+    }
+
+
+ul li{
+    list-style: none;
+
+    
+}
+.one{
+    display: flex;
+}
+.logo{
+   position: relative;
+   top: 3vh;
+   left: 4.5vw;
+}
+.title{
+    transform: skew(-12deg);
+    display: inline;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+.fa{
+    width: 5rem;
+    height: 5rem;
+}
+h1{
+    font-family: 'Tapestry', cursive;
+    background-color: #fff;
+    color: black;
+    padding: 0.5rem;
+    display: inline;
+    opacity: 0.65;
+    margin-left: -1.8rem;
+    
+}
+.one ul li a{
+    color: #fff;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: block;
+    border: 1px solid white;
+    text-align: center;
+}
+.one ul li a:hover{
+    background-color: rgb(137, 211, 26);
+    /*border: 1px ridge rgb(103, 167, 6);*/
+}
+.heading ul li a:hover{
+    background-color: rgb(137, 211, 26);
+    /*border: 1px ridge rgb(103, 167, 6);*/
+}
+
+
+a{
+    text-decoration: none;
+}
+p{
+    color: black;
+}
+/*h1{
+    background-color: beige;
+    color: black;
+    display: inline;
+}
+*/.heading{
+    text-align: center;
+    margin-top: 6rem;
+}
+.heading ul{
+    margin-left: 32%;
+}
+.heading a{
+    color: #fff;
+    padding: 0.8rem;
+    margin-left:5rem;
+    width:78%;
+    display: block;
+    border: 1px solid white;
+    
+}
+.heading h2{
+    font-size: 3rem;
+}
+.info img{
+    width:30rem;
+    margin-left: -1rem;
+}
+
+/*INFO SECTION*/
+.info{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    overflow-x: hidden;
+}
+.box1,.box2{
+    width: 45%;
+}
+.info h3{
+    color:rgb(137, 211, 26) ;
+    font-size: 2rem;
+    margin-top: -1rem;
+    
+}
+.info p{
+    line-height:2;
+}
+.info a{
+    color: #fff;
+    background-color:rgb(137, 211, 26) ;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-left: -2rem;
+}
+
+/*INTERIOR SECTION*/
+.interior{
+background-image: url('img/kabir-cheema-69aG6It7Xdw-unsplash.jpg');
+background-size: cover;
+background-position: center;
+overflow-x: hidden;
+height:37rem;
+
+}
+.box-3{
+    display: flex;
+    justify-content: space-around;
+}
+.box-3 p{
+    width:120%;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.bg{
+
+    background-color: #fff;
+    opacity: 0.7;
+    position: relative;
+    top: 1.3rem;
+    margin-top: 2rem;
+    margin-left:auto;
+    margin-right: auto;
+    width: 70%;
+    height: 84%;
+    
+}
+
+.bg h2{
+    color: black;
+    font-weight: bolder;
+}
+
+.interior h2{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.box-1,.box-2{
+    width:28%;
+    margin:2rem 2rem 1rem 2rem;
+}
+
+
+
+/*PRICES*/
+.prices{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2rem;
+    padding: 2rem;
+    overflow-x: hidden;
+}
+.content{
+    float: right;
+    margin-top: -1rem;
+}
+
+.prices img{
+    width: 30%;
+    height: 10rem;
+}
+.items{
+    margin: 1.5rem;
+    height: 40%;
+}
+.prices a{
+    color: #fff;
+    background-color:rgb(137, 211, 26) ;
+    padding: 0.8rem;
+
+    text-align: center;
+}
+.content h3{
+    font-weight: bolder;
+    color: black;
+}
+.content span{
+    color: rgb(137, 211, 26);
+    font-weight: bold;
+}
+
+/*About*/
+.about{
+    background-color: rgb(107, 103, 103);
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+   
+}
+.dabba p{
+    color: #fff;
+    line-height: 1.7;
+}
+.dabba{
+    width: 28%;
+    margin: 0.5rem;
+  
+    text-align: center;
+}
+.dabba h3{
+    font-size: 1.5rem;
+}
+.third a{
+    color: white;
+  
+}
+
+/*FOOTER*/
+footer{
+    background-color: rgb(30, 25, 25);
+    overflow-x: hidden;
+}
+footer p{
+    color: #fff;
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto;
+}
+
+
+/*Media Queries*/
+
+@media (max-width:1920px) {
+    .items{
+        width: 78%;
+        margin-left: 8rem;
+    }
+    .one ul{
+        margin-left: 30rem;
+    }
+    
+}
+@media (max-width:1821px) {
+    .one ul{
+        margin-left: 24rem;
+    }
+}
+@media (max-width:1800px) {
+    .items{
+        width: 85%;
+    }
+    
+}
+@media (max-width:1730px) {
+    .one ul{
+        margin-left: 18rem;
+    }
+    
+}
+@media (max-width:1653px) {
+    .content{
+        width:58%;
+    }
+    .items{
+        width: 76%;
+    }
+}
+@media (max-width:1627px) {
+    .one ul{
+        margin-left: 14rem;
+    }
+    
+}
+
+@media (max-width:1564px) {
+    .one ul{
+        margin-left: 11rem;
+    }
+}
+@media (max-width:1516px) {
+    .one ul{
+        margin-left: 9rem;
+    }
+    .info a{
+        width: 120%;
+    }
+   
+   
+    
+}
+@media (max-width:1481px) {
+    .one ul{
+        margin-left:6rem;
+    }
+   
+}
+@media (max-width:1436px) {
+   
+    .one ul{
+        margin-left:4rem;
+    }
+}
+@media (max-width:1423px) {
+    h1{
+        margin-left: -5.6rem;
+    }
+    .logo{
+        left: 1.9vw;
+    }
+   
+    
+}
+@media (max-width:1388px) {
+    h1{
+        font-size:1.6rem;
+    }
+    ul{
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width:1311px) {
+    .one ul{
+        margin-left:2rem;
+    }
+    .info a{
+        width: 140%;
+    }
+    
+}
+@media (max-width:1279px) {
+    .one ul{
+        margin-left:0rem;
+    }
+}
+@media (max-width:1254px) {
+    .one ul{
+        margin-left:-2rem;
+    }
+    .items {
+        width: 94%;
+        margin-left: 3rem;
+    }
+    .content {
+        width: 62%;
+    }
+}
+@media (max-width:1215px) {
+    .nav{
+        width:45% ;
+        padding: 0.5rem;
+    }
+    #about{
+        margin-left: -1rem;
+    }
+    #special{
+        width: 96%;
+        margin-left: -2.5rem;
+    }
+    .heading ul{
+        margin-left: 28%;
+    }
+    .one ul{
+        margin-left: 2rem;
+    }
+}
+@media (max-width:1194px) {
+  .third{
+      width: 30%;
+  }
+}
+
+@media (max-width:1164px) {
+    
+    .heading h2{
+        font-size: 2.5rem;
+    }
+    .info a{
+        width: 150%;
+    }
+}
+@media (max-width:1145px) {
+    .one ul{
+        margin-left: 1rem;
+    }
+    
+}
+@media (max-width:1129px) {
+    .one ul{
+        margin-left: -1rem;
+    }
+    .info a{
+        width: 160%;
+    }
+    .box-1 img {
+        height: 47.5%;
+        width: 124%;
+        
+    }
+    .bg{
+        top: 0.6rem;
+        height: 88%;
+    }
+    .box-1,.box-2{
+        margin-left: 0rem;
+    }
+    
+}
+@media (max-width:1114px) {
+    .third{
+        width:35%;
+    }
+}
+@media (max-width:1096px) {
+#special{
+    margin-left:-2.9rem;
+}
+#menu{
+    margin-left: -1.4rem;
+    width: 72%;
+}
+#reservation{
+    margin-left: -1.3rem;
+    width: 74%;
+}
+#order_online{
+    width: 76%;
+    position: relative;
+    left: -2.2rem;
+}
+#contact{
+    margin-left: -1.5rem;
+}
+.box-3 p{
+    width: 126%;
+}
+}
+@media (max-width:1061px) {
+    .items {
+        width: 98%;
+        margin-left: 2rem;
+    }
+    .prices img{
+        width: 32%;
+    }
+    #order_online{
+        width: 80%;
+    }
+    .info a{
+        width: 165%;
+    }
+}
+@media (max-width:1050px) {
+    #special {
+        margin-left: -3.3rem;
+        width: 97%;
+    }
+    #contact {
+        margin-left: 0.5rem;
+    }
+    #order_online{
+        width: 80%;
+        left: -1.2rem;
+    }
+    
+}
+@media (max-width:1030px) {
+    .bg {
+        top: 0.1rem;
+        height: 90%;
+        width: 80%;
+    }
+    
+    .info img {
+       
+        margin-left: -4rem;
+    }
+.info a{
+    width: 227%;
+}
+    
+}
+@media (max-width:1019px) {
+    #about {
+        margin-left: -2rem;
+    }
+    #special {
+        margin-left: -4.3rem;
+        width: 101%;
+    }
+    #menu {
+        margin-left: -3rem;
+    }
+    #reservation {
+        margin-left: -3.3rem;
+    }
+    #order_online {
+        width: 89%;
+        left: -4.2rem;
+    }
+    #contact {
+        margin-left: -2.5rem;
+    }
+    
+}
+
+@media (max-width:992px) {
+    .prices{
+        grid-template-columns: 1fr;
+    }
+    #contact {
+        margin-left: -1.5rem;
+        width: 60%;
+    }
+    #reservation {
+        margin-left: -2.3rem;
+    }
+    #order_online {
+       
+        left: -3.2rem;
+    }
+    #menu {
+        width: 80%;
+    
+            margin-left: -2.5rem;
+    }
+    #special {
+        margin-left: -4.3rem;
+        width: 105%;
+    }
+    .heading{
+        margin-top: 7rem;
+    }
+    .prices a{
+        position: relative;
+        top: 1rem;
+    }
+    .heading ul {
+        margin-left: 24%;
+    }
+    
+}
+@media (max-width:955px) {
+    #contact {
+        margin-left: -1.1rem;
+        width: 65%;
+    }
+    #special {
+        
+        width: 111%;
+    }
+    .third a{
+margin: -1.5rem;
+    }
+    .third{
+        width: 25%;
+    }
+    
+}
+@media (max-width:942px) {
+    .box-2{
+        margin-left: -2rem;
+    }
+    
+}
+@media (max-width:939px) {
+    #order_online {
+        left: -2.5rem;
+        width: 93%;
+    }
+    #reservation{
+        width: 80%;
+    }
+    .heading h2{
+        font-size: 2.2rem;
+    }
+    .info img {
+        margin-left: -3rem;
+        margin-top: 2rem;
+        width: 117%;
+    }
+}
+@media (max-width:916px) {
+    #contact {
+        margin-left: -0.1rem;
+        
+    }
+    #order_online {
+        left: -1.5rem;
+        width: 96%;
+    }
+    #reservation {
+       
+        margin-left: -1rem;
+    }
+    #menu {
+       width: 82%;
+        margin-left: -1rem;
+    }
+    #special {
+        width: 116%;
+        margin-left: -3.2rem;
+    }
+    #about {
+        margin-left: -1.5rem;
+    }
+    .info img {
+        margin-left: -3rem;
+        width: 117%;
+    }
+    .info p {
+        line-height: 1.5;
+    }
+}
+    @media (max-width:898px) {
+        .int-img{
+width: 131%;
+        }
+        .image{
+            width: 131%;
+            height: 40%;
+        }
+        .info h3{
+            font-size: 1.5rem;
+        }
+    }
+    @media (max-width:893px) {
+        #menu{
+            width: 84%;
+        }
+    }
+    @media (max-width:885px) {
+        .one ul li a{
+            font-size: 0.8rem;
+        }
+       
+    }
+    @media (max-width:861px) {
+        .items {
+            width: 99%;
+            margin-left: 0rem;
+        
+    }
+    .content {
+        width: 64%;
+    }
+}
+    @media (max-width:835px) {
+        #menu{
+            width: 77%;
+        }
+        .box-3 p{
+            width: 132%;
+        }
+        .heading ul{
+            margin-left: 20%;
+        }
+        .items {
+            width: 106%;
+        
+    }
+    .content {
+        width:64%;
+    }
+}
+    @media (max-width:814px) {
+        #special{
+            margin-left: -2.9rem;
+        }
+        #about {
+            margin-left: -1.2rem;
+        }
+        .heading a{
+            left:-4.8rem;
+
+        }
+        .heading h2{
+            font-size: 2rem;
+        }
+    }
+    @media (max-width:792px) {
+        #menu{
+            width: 79%;
+        }
+        .items{
+            width: 110%;
+            margin-left: -1rem;
+        }
+    }
+    @media (max-width:778px) {
+        #menu{
+            width:81%;
+        }
+    }
+    @media (max-width:768px) {
+      
+        .box-3 p{
+            font-size: 0.9rem;
+        }
+        .dabba p{
+            line-height: 1.2;
+            text-align: left;
+            margin-left: 0.7rem;
+        }
+        .heading ul{
+margin-left: 16%;
+         }
+        .hamburger{
+            display: block;
+            margin-top: 3rem;
+            margin-left: 32rem;
+        }
+        .hamburger.active .bar:nth-child(2)
+        {
+            opacity: 0;
+        }
+        .hamburger.active .bar:nth-child(1)
+        {
+            transform: translateY(8px) rotate(45deg);
+        }
+        .hamburger.active .bar:nth-child(3)
+        {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+        .one ul{
+            grid-template-columns:10rem ;
+            width: 96%;
+        }
+        .one ul li a{
+            text-align: center;
+        }
+        .nav-menu{
+            position: fixed;
+            left: -100%;
+            top: 30px;
+            gap: 0;
+           
+            background-color: #eeeeee96;
+            
+            width: 100%;
+            text-align: center;
+            transition: 0.3s;
+            
+        }
+        .one ul li a{
+            color: black;
+            border: 2px solid black;
+        }
+        .nav-menu li{
+            margin: 10px 0;
+        }
+        .nav-menu.active{
+            left: 0;
+            z-index: 1000;
+        }
+        #about{
+            margin-left: 0.5rem;
+        }
+        #special{
+            margin-left: 0.5rem;
+            width: 59%;
+        }
+        #menu{
+            width: 45%;
+    margin-left: 0.5rem;
+
+        }
+        #reservation{
+            margin-left: 0.6rem;
+    width: 53%;
+}
+#order_online {
+    left: 0.1rem;
+    width: 57%;
+}
+#contact {
+    margin-left: 0.65rem;
+    width: 46%;
+}
+.info a {
+    width: 302%;
+    margin-left: -2.5rem;
+}
+.content p{
+    width: 82%;
+}
+.prices img{
+    height: 12rem;
+}
+.prices a{
+    top: 2rem;
+}
+        }
+@media (max-width:728px) {
+    .heading h2 {
+        
+        width: 80%;
+        margin-left: 5rem;
+    }
+    .heading a {
+        left: -6.8rem;
+    }
+    .hamburger{
+        margin-left: 30rem;
+    }
+    .info p{
+        font-size: 0.9rem;
+    }
+    .info .box1{
+        width: 43%;
+    }
+    .info img {
+        margin-left: -2rem;
+        width: 125%;
+        margin-top: 2rem;
+    }
+}
+@media (max-width:692px) {
+    .hamburger{
+        margin-left: 27rem;
+    }
+    .bg{
+        width: 85%;
+    }
+    .dabba p{
+        font-size: 0.9rem;
+    }
+    .heading ul{
+        margin-left: 10%;
+    }
+}
+@media (max-width:638px) {
+    .hamburger{
+        margin-left: 24.5rem;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .info .box1{
+        width: 100%;
+    }
+    .info img{
+        margin-left: 5rem;
+        width: 156%;
+    }
+    .info a {
+        margin-left: 8.7rem;
+        width: 51%;
+        margin-top: -1rem;
+    }
+    .int-img{
+        height: 47%;
+    }
+    /* .box-3{ 
+        flex-direction: column;
+    }
+    .box-1,.box-2{
+        width: 30%;
+        margin-left: 10rem;
+    }*/
+}
+        @media (max-width:600px) {
+            .heading h2 {
+                width: 80%;
+                margin-left: 4rem;
+            }
+          
+            .hamburger{
+                margin-left: 22rem;
+            }
+            .heading ul{
+                margin-left: 3%;
+            }
+            .info img {
+                margin-left: 3rem;
+                width: 179%;
+            }
+            .info a{
+                margin-left: 6.7rem;
+            }
+            .dabba h3 {
+                font-size: 1.1rem;
+            }
+            
+            
+        }
+@media (max-width:569px) {
+    .hamburger{
+        margin-left: 20rem;
+    }
+    .info a{
+        margin-left: 7.7rem;
+    }
+    .items{
+        width: 110%;
+    }
+    .third{
+        width: 31%;
+    }
+    
+}
+@media (max-width:560px) {
+    .items{
+        width: 125%;
+    }
+    .content{
+        width: 65%;
+    }
+}
+@media (max-width:532px) {
+    .info img {
+        margin-left: 0.5rem;
+        width: 74vw;
+    }
+    .info a{
+        margin-left: 5.7rem;
+    }
+    .heading ul{
+        margin-left: -5%;
+    }
+}
+@media (max-width:524px) {
+    .prices p {
+        width: 97%;
+    }
+    .content {
+        width: 66%;
+    }
+    .int-img{
+        height: 40%;
+    }
+    .box-3 p {
+        width: 155%;
+    }
+    .box-3{
+        margin-left: 2rem;
+    }
+    .hamburger{
+        margin-left: 18rem;
+    }
+
+}
+@media (max-width:501px) {
+    .heading a {
+       margin-left: 7rem;
+        width: 46%;
+    }
+    .heading ul{
+        grid-template-columns: 1fr;
+    }
+   
+    .interior{
+    height: 55rem;
+  
+    }
+    .content{
+        width: 66%;
+        margin-top: 0.5rem;
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-3{
+        flex-direction: column;
+    }
+    .box-1,.box-2{
+        width: 52%;
+        margin-left: 2rem;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .prices p{
+        width: 120%;
+    }
+    .dabba{
+        width: 95%;
+    }
+    .dabba p{
+        text-align: center;
+    }
+    .prices img {
+        width: 85%;
+        height: 13rem;
+      }
+      .prices a {
+        top: 1rem;
+    }
+    .info a {
+        margin-left: 3.7rem;
+        width: 78%;
+    }
+}
+@media (max-width:489px) {
+    .hamburger{
+        margin-left: 16.5rem;
+    }
+    .prices img{
+        margin-left: -2rem;
+    }
+    .content {
+        position: relative;
+        left: -1rem;
+    }
+   .one ul{
+       margin-left: -2rem;
+   }
+   .heading h2{
+       margin-left: 3rem;
+       
+   }
+   .heading ul{
+       margin-left: -8%;
+   }
+   
+
+    
+}
+@media (max-width:475px) {
+    .hamburger{
+        margin-left: 15.5rem;
+    }
+    .interior h2{
+        width: 55%;
+        margin-left: 5rem;
+    }
+    .bg{
+        height: 94%;
+    }
+    .box-2{
+        margin-top: -0.5rem;
+    }
+}
+@media (max-width:456px) {
+    .hamburger{
+        margin-left: 13.5rem;
+    }
+}
+@media (max-width:430px) {
+    .info a{
+        margin-left: 2.7rem;
+    }
+    .info img{
+        margin-left: 0rem;
+    }
+}
+@media (max-width:417px) {
+    .hamburger{
+        margin-left: 12rem;
+    }
+    .heading h2{
+        margin-left: 2.5rem;
+    }
+  .heading a{
+      margin-left: 5.5rem;
+
+  }
+   
+}
+@media (max-width:400px) {
+    .info a{
+        width: 129%;
+        margin-left: 1rem;
+    }
+    .info img{
+        margin-left:-1rem;
+    }
+    .prices p{
+        width: 137%;
+    }
+    .hamburger{
+        margin-left: 10.5rem;
+    }
+    .item3,.item4{
+        margin-top: -1rem;
+    }
+}
+@media (max-width:378px) {
+    .info a {
+        width: 121%;
+        margin-left: 0.7rem;
+    }
+    .item5{
+        margin-top: 0.5rem;
+    }
+    .prices img{
+        width: 96%;
+    }
+}
+@media (max-width:360px) {
+    .hamburger{
+        margin-left: 8rem;
+    }
+    .heading a{
+margin-left: 4.5rem;
+    }
+}
+@media (max-width:340px) {
+    .hamburger{
+        margin-left: 6.8rem;
+    }
+    .interior h2{
+        margin-left: 2.1rem;
+    }
+    .box-3{
+        margin-left: 1rem;
+    }
+   
+    .bg{
+        height: 94%;
+    }
+    .item8{
+        margin-top: 1.5rem;
+    }
+   
+    .info h3 {
+        font-size: 1.5rem;
+        width: 119%;
+        margin-left: -1rem;
+      }
+    .info p{
+        width: 127%;
+        margin-left: -1rem;
+
+    }
+    .info a{
+        margin-left: 0.4rem;
+        width: 120%;
+    }
+    .prices img{
+        width: 111%;
+    }
+    
+}
+@media (max-width:310px) {
+    .hamburger{
+        margin-left: 5.5rem;
+    }
+    .info img{
+        margin-left: -1.5rem;
+    }
+    .info a {
+        margin-left: -0.6rem;
+        width: 144%;
+    }
+    .info img {
+        margin-left: -1.2rem;
+        height: 28vh;
+        width: 76vw;
+    }
+    .item8{
+        margin-top: 0.5rem;
+    }
+    .item3,.item4 {
+        margin-top: -2rem;
+    }
+}
+@media (max-width:300px) {
+    .prices img {
+        width: 119%;
+        height: 23vh;
+    }
+    .interior h2 {
+        margin-left: 1rem;
+    }
+    .heading h2 {
+        margin-left: 1.5rem;
+    }
+    .heading a {
+        margin-left: 3.1rem;
+    }
+    .info a {
+        margin-left: -1.6rem;
+        width: 223%;
+    }
+    .info img{
+        margin-left: -1.7rem;
+    }
+    .item3,.item4{
+        margin-top: -1rem;
+    }
+    .item5 {
+        margin-top: 0.5rem;
+    }
+    .box-3 {
+        margin-left: 0rem;
+    }
+    .box-1 img,.int-img {
+        height: 22vh;
+        width: 146%;
+    }
+    .bg {
+        height: 91%;
+    }
+    .interior {
+        height: 63rem;
+    }
+    
+}
+@media (max-width:290px) {
+    .hamburger{
+        margin-left: 5rem;
+    }
+   
+}
